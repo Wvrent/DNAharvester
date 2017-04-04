@@ -4,9 +4,12 @@ A (somewhat) simple process to harvest items records from your Sierra catalogue 
 
 Usage:
 
-Initial scans-
-./harvest.php bibscan
-./harvest.php itemscan
+Initial scans
 
-Maintenance scan-
-./harvest.php update
+  ./harvest.php bibscan
+
+  ./harvest.php itemscan
+
+Maintenance scan
+
+  ./harvest.php update
