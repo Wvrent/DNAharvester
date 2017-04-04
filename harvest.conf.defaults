@@ -1,0 +1,38 @@
+pghost = "<postgresserver>"
+pgdbase = "iii"
+pgport = "1032"
+pguser = "<username>"
+pgpassword = "<password>"
+pgsslmode = "require"
+pgtimeout = "5"
+
+myhost = "<mysqlserver>"
+myuser = "<username>"
+mypassword = "<password>"
+mydbase = "< MYDBASE >"
+myport = "3306"
+
+email_log = "<emailaddress>"
+timestampformat = "Y-m-d H:i:s"
+bibtable = "bibs"
+bibsubjectlinktable = "bibsubjectlink"
+subjecttable = "subjects"
+itemtable = "items"
+scanlimit = "<records to scan at one time>"
+catalogurlprefix = "https://<your catalog>/iii/encore/record/C|Rb"
+catalogurlsuffix = "|"
+
+[defaultbookcover]
+coverimage_src = "http://www.londonpubliclibrary.ca/sites/londonpubliclibrary.ca/misc/nocover-dvd.png"
+coverimage_sizex = 150
+coverimage_sizey = 200
+
+[defaultcdcover]
+coverimage_src = "http://www.londonpubliclibrary.ca/sites/londonpubliclibrary.ca/misc/nocover-cd.png"
+coverimage_sizex = 130
+coverimage_sizey = 130
+
+[defaultdvdcover]
+coverimage_src = "http://www.londonpubliclibrary.ca/sites/londonpubliclibrary.ca/misc/nocover.png"
+coverimage_sizex = 130
+coverimage_sizey = 200
